@@ -3,7 +3,7 @@ const step = 1;
 
 function outNum(num, elem) {
    let l = document.querySelector('#' + elem);
-   n = 57;
+   n = 430;
    let t = Math.round(time/(num/step));
    let interval = setInterval(() => {
       n = n + step;
@@ -15,4 +15,4 @@ function outNum(num, elem) {
       t);
 }
 
-outNum(89, 'out-1');
+outNum(660, 'out-1');
